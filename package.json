@@ -1,4 +1,7 @@
 {
+  "browser": {
+    "fs": false
+  },
   "name": "chat-app",
   "version": "1.0.0",
   "description": "",
