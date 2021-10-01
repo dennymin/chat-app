@@ -26,9 +26,9 @@
 
     const pubnub = new PubNub({
       // replace the key placeholders with your own PubNub publish and subscribe keys
-      publishKey: 'pub-c-b5ebfe30-9b1f-4926-a0ab-c6e202d58629',
-      subscribeKey: 'sub-c-b5dafea6-22fa-11ec-90d5-3eee4c94e219',
-      uuid: "sec-c-OWUxOWNlOTAtMDEyNC00NmFkLTk1NWEtZWJiNjFjN2ZmNzJh"
+      publishKey: process.env.PUBLISH_KEY,
+      subscribeKey: process.env.SUBSCRIBE_KEY,
+      uuid: process.env.SECRET_KEY
     });
 
     pubnub.addListener({
