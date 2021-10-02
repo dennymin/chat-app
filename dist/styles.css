@@ -1,0 +1,37 @@
+* {
+  font-family: monospace
+}
+
+.container {
+  margin: 20px auto;
+}
+
+#board {
+  text-align: center;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-basis-100 {
+  flex-basis: 100%;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-10-10 {
+  margin: 10px 0 10px;
+}
+
+.text-align-center {
+  text-align: center;
+}

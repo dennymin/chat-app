@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import Chatting from 'chatter';
 
 ReactDom.render(
-  <h1>hi</h1>,
+  <div>
+    <Chatting />
+    <h1>hi</h1>
+  </div>,
   document.querySelector('#root');
 )
